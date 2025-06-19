@@ -1,13 +1,12 @@
-import Header from "./ex1/Header"
-import MainContent from "./ex1/MainContent"
-import Footer from "./ex1/Footer"
+
+import ProductList from "./exercises/map exercise/ProductList"
+import UserList from "./UserList"
 
 const App = () => {
    return (
     <div>
-    <Header />
-    <MainContent/>
-    <Footer />
+    <UserList/>
+    <ProductList />
         </div>
    )
 }
