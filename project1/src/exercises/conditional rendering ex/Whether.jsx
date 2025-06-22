@@ -11,7 +11,7 @@ const Whether = ({temperature}) => {
   else if(temperature > 25){
     msg = "It's hot outside!";
   }
-    return (
+    return (    
     <div>
      <h1>Temperature: {temperature}</h1>
      <h2>{msg}</h2>
